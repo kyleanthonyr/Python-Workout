@@ -16,7 +16,6 @@ def guessing_game():
 
     # selects a random numer
     num = random.randint(0, 100)
-    print(num)
 
     # prompts use to guess
     user_guess = int(input("Guess which number was chosen (0-100): "))
