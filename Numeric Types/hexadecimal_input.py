@@ -1,7 +1,7 @@
 
 def to_base10(num, base=16):
     """
-    A function that takes a hex number and returns the decimal equivalent.
+    A function that takes a hex number, bydefault,  and returns the decimal equivalent.
 
     Hex to decimal conversion follows the conversion: 
         33B(hex) = (3*16^2) + (3*16^1) + (11*16^0) = 768 + 48 + 11 = 827(base10)
