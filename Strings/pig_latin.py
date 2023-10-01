@@ -6,7 +6,7 @@ def pig_latin(sentence):
     """
     translation = ''
     for word in sentence.split():
-        if word[0] in ['a', 'e', 'i', 'o', 'u']:
+        if word[0] in 'aeiou':
             translated_word = word + "way "
             translation += translated_word
         else:
@@ -16,5 +16,5 @@ def pig_latin(sentence):
     return translation
 
 
-translation = pig_latin('talia')
+translation = pig_latin('what is pig latin')
 print(translation)
